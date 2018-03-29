@@ -11,7 +11,7 @@ var cors = require('cors');
 var userRoutes = require('./routes/users');
 var imageRoutes = require('./routes/images');
 
-var host = 'http://instagram-clone.chas.academy/';
+var host = 'http://instagram-clone.chas.academy';
 // var host = process.env.DB_HOST + ':' + process.env.DB_PORT;
 
 var app = express();
